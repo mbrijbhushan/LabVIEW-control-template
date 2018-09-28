@@ -1,17 +1,17 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="varPersistentID:{17FC4340-5E39-4812-8DA6-CE8E1CACDC25}" Type="Ref">/BB-myRIO/Variables.lvlib/Controller On?</Property>
-	<Property Name="varPersistentID:{209A193D-465F-4FFB-BB87-2F2159DF7F31}" Type="Ref">/BB-myRIO/Variables.lvlib/Error</Property>
-	<Property Name="varPersistentID:{2687DA22-CDB2-4D65-9643-04D3517DDCF7}" Type="Ref">/BB-myRIO/Variables.lvlib/DSA excitation</Property>
-	<Property Name="varPersistentID:{3149AF2B-82DC-4AB3-B98E-E3CAD237DB34}" Type="Ref">/BB-myRIO/Variables.lvlib/DSA CH0</Property>
-	<Property Name="varPersistentID:{41DE4D5C-F918-46D1-99CD-962D5056ECEF}" Type="Ref">/BB-myRIO/Variables.lvlib/Ref. Value</Property>
-	<Property Name="varPersistentID:{8656F97A-FBBA-4E05-AC95-18C2CE498291}" Type="Ref">/BB-myRIO/Variables.lvlib/DSA running?</Property>
-	<Property Name="varPersistentID:{8A60F8A9-42D4-4024-84B9-E5288328FDE0}" Type="Ref">/BB-myRIO/Variables.lvlib/DSA CH1</Property>
-	<Property Name="varPersistentID:{8AA30295-C267-4758-B04D-7E1A8729C788}" Type="Ref">/BB-myRIO/Variables.lvlib/Zero</Property>
-	<Property Name="varPersistentID:{B51F161D-EF41-4EAC-86AD-364C45C10546}" Type="Ref">/BB-myRIO/Variables.lvlib/Stop?</Property>
-	<Property Name="varPersistentID:{B6602A86-C1DC-46FA-A574-06B2DB23F443}" Type="Ref">/BB-myRIO/Variables.lvlib/Analog Output</Property>
-	<Property Name="varPersistentID:{BBA2C563-654E-419C-AA86-F74102B1EA3D}" Type="Ref">/BB-myRIO/Variables.lvlib/Kp</Property>
-	<Property Name="varPersistentID:{F1DC5EA1-902A-46CE-990F-516A8DD0D3E9}" Type="Ref">/BB-myRIO/Variables.lvlib/Analog Inputs</Property>
+	<Property Name="varPersistentID:{17FC4340-5E39-4812-8DA6-CE8E1CACDC25}" Type="Ref">/NI-myRIO/Variables.lvlib/Controller On?</Property>
+	<Property Name="varPersistentID:{209A193D-465F-4FFB-BB87-2F2159DF7F31}" Type="Ref">/NI-myRIO/Variables.lvlib/Error</Property>
+	<Property Name="varPersistentID:{2687DA22-CDB2-4D65-9643-04D3517DDCF7}" Type="Ref">/NI-myRIO/Variables.lvlib/DSA excitation</Property>
+	<Property Name="varPersistentID:{3149AF2B-82DC-4AB3-B98E-E3CAD237DB34}" Type="Ref">/NI-myRIO/Variables.lvlib/DSA CH0</Property>
+	<Property Name="varPersistentID:{41DE4D5C-F918-46D1-99CD-962D5056ECEF}" Type="Ref">/NI-myRIO/Variables.lvlib/Ref. Value</Property>
+	<Property Name="varPersistentID:{8656F97A-FBBA-4E05-AC95-18C2CE498291}" Type="Ref">/NI-myRIO/Variables.lvlib/DSA running?</Property>
+	<Property Name="varPersistentID:{8A60F8A9-42D4-4024-84B9-E5288328FDE0}" Type="Ref">/NI-myRIO/Variables.lvlib/DSA CH1</Property>
+	<Property Name="varPersistentID:{8AA30295-C267-4758-B04D-7E1A8729C788}" Type="Ref">/NI-myRIO/Variables.lvlib/Zero</Property>
+	<Property Name="varPersistentID:{B51F161D-EF41-4EAC-86AD-364C45C10546}" Type="Ref">/NI-myRIO/Variables.lvlib/Stop?</Property>
+	<Property Name="varPersistentID:{B6602A86-C1DC-46FA-A574-06B2DB23F443}" Type="Ref">/NI-myRIO/Variables.lvlib/Analog Output</Property>
+	<Property Name="varPersistentID:{BBA2C563-654E-419C-AA86-F74102B1EA3D}" Type="Ref">/NI-myRIO/Variables.lvlib/Kp</Property>
+	<Property Name="varPersistentID:{F1DC5EA1-902A-46CE-990F-516A8DD0D3E9}" Type="Ref">/NI-myRIO/Variables.lvlib/Analog Inputs</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -25,8 +25,8 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="BB-myRIO" Type="RT myRIO">
-		<Property Name="alias.name" Type="Str">BB-myRIO</Property>
+	<Item Name="NI-myRIO" Type="RT myRIO">
+		<Property Name="alias.name" Type="Str">NI-myRIO</Property>
 		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Custom;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
@@ -113,6 +113,7 @@ DirectoryIndex index.htm
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="DSA excitation specs.ctl" Type="VI" URL="../Components/PMCL Dynamic Signal Analyzer/Controls/DSA excitation specs.ctl"/>
 			<Item Name="StateDef_Enum.ctl" Type="VI" URL="../Typedefs/StateDef_Enum.ctl"/>
+			<Item Name="DSA cycle specs.ctl" Type="VI" URL="../Components/PMCL Dynamic Signal Analyzer/Controls/DSA cycle specs.ctl"/>
 		</Item>
 		<Item Name="DSA" Type="Folder">
 			<Item Name="SubVI" Type="Folder">
@@ -126,6 +127,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="Documentation.pptx" Type="Document" URL="../Documentation.pptx"/>
+			<Item Name="Documentation.pdf" Type="Document" URL="../Documentation.pdf"/>
 		</Item>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1744,7 +1746,7 @@ DirectoryIndex index.htm
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/BB-myRIO</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/NI-myRIO</Property>
 				<Property Name="IncludeProject" Type="Bool">true</Property>
 				<Property Name="Path[0]" Type="Path">../../builds/Controls Template/BB-myRIO/My Zip File/Controls Template.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
@@ -1759,7 +1761,7 @@ Last edit by Brij Bhushan on Jan-10-2018.</Property>
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/BB-myRIO</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/NI-myRIO</Property>
 				<Property Name="IncludeProject" Type="Bool">true</Property>
 				<Property Name="Path[0]" Type="Path">../../builds/Controls Template/BB-myRIO/Controls Template_zip/Controls Template.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
