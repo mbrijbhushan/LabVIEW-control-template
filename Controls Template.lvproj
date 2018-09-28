@@ -111,6 +111,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="DSA excitation specs.ctl" Type="VI" URL="../Components/PMCL Dynamic Signal Analyzer/Controls/DSA excitation specs.ctl"/>
 			<Item Name="StateDef_Enum.ctl" Type="VI" URL="../Typedefs/StateDef_Enum.ctl"/>
 		</Item>
 		<Item Name="DSA" Type="Folder">
@@ -1588,8 +1589,7 @@ DirectoryIndex index.htm
 		<Item Name="Timing.lvlib" Type="Library" URL="../Components/Timing/Timing.lvlib"/>
 		<Item Name="Variables.lvlib" Type="Library" URL="../Components/Variables/Variables.lvlib"/>
 		<Item Name="Controller.lvlib" Type="Library" URL="../Components/Controller/Controller.lvlib"/>
-		<Item Name="Main_v1.2.vi" Type="VI" URL="../Main_v1.2.vi"/>
-		<Item Name="Main_v2.1.vi" Type="VI" URL="../Main_v2.1.vi"/>
+		<Item Name="Main_v3.1.vi" Type="VI" URL="../Main_v3.1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1707,9 +1707,7 @@ DirectoryIndex index.htm
 				<Item Name="roboRIO v1.0 Close AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/vis/roboRIO v1.0 Close AO.vi"/>
 				<Item Name="roboRIO v1.0 Unreserve AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/vis/roboRIO v1.0 Unreserve AO.vi"/>
 				<Item Name="roboRIO v1.0 Build MUX Configuration AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/vis/roboRIO v1.0 Build MUX Configuration AO.vi"/>
-				<Item Name="SIM limit type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM limit type.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
 				<Item Name="ELVIS III v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AI/vis/ELVIS III v1.0 Read AI.vi"/>
 				<Item Name="ELVIS III AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AI/typedefs/ELVIS III AI Channels FPGA Reference.ctl"/>
 				<Item Name="ELVIS III v1.0 AI Read Bank B.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AI/vis/ELVIS III v1.0 AI Read Bank B.vi"/>
@@ -1729,6 +1727,8 @@ DirectoryIndex index.htm
 				<Item Name="ELVIS III v1.0 Unreserve AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AO/vis/ELVIS III v1.0 Unreserve AO.vi"/>
 				<Item Name="ELVIS III v1.0 Build MUX Configuration AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/AO/vis/ELVIS III v1.0 Build MUX Configuration AO.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="SIM limit type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM limit type.ctl"/>
+				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
