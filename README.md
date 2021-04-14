@@ -1,5 +1,5 @@
 # LabVIEW-control-template
-LabVIEW control template with DSA
+LabVIEW control template with Dynamic Signal Analyzer (DSA) to measure bode plots
 
 Works with LabVIEW RIO architecture platforms (e.g. myRIO, cRIO, etc.)
 
